@@ -5,8 +5,9 @@ import React, {
   useRef,
   useState,
 } from "react"
-import { StatusBar } from "react-native"
 import MaterialCommunityIcon from "react-native-vector-icons/MaterialCommunityIcons"
+import { StatusBar } from "react-native"
+
 import { WebView, WebViewNavigation } from "react-native-webview"
 import { SafeAreaView } from "react-navigation"
 import { NavigationStackProp } from "react-navigation-stack"

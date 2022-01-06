@@ -2,8 +2,9 @@ import React from "react"
 import { connect, ConnectedProps } from "react-redux"
 import { NavigationStackProp } from "react-navigation-stack"
 import { useEffect, ReactNode } from "react"
-import { Routes } from "../_routes"
 import { RootStoreType } from "../../../redux/rootReducer"
+import { Routes } from "../_routes"
+
 
 const ProtectedRoute = ({
   authenticated,

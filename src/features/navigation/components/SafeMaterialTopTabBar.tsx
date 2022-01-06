@@ -1,6 +1,7 @@
 import React from "react";
-import { SafeAreaView } from "react-navigation";
 import { MaterialTopTabBar } from "react-navigation-tabs";
+import { SafeAreaView } from "react-navigation";
+
 
 const SafeMaterialTopTabBar = (props: any) => {
   return (

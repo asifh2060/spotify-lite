@@ -3,8 +3,9 @@ import { Text, TouchableOpacity } from "react-native"
 import FastImage from "react-native-fast-image"
 import Animated from "react-native-reanimated"
 import { albumDimensions, styles } from "../styles"
-import UIHelper from "../../../common/helpers/UIHelper"
 import { AlbumType } from "../../../services/network/models/spotify/SpotifyCommon"
+import UIHelper from "../../../common/helpers/UIHelper"
+
 
 const AlbumItem = ({
   album,

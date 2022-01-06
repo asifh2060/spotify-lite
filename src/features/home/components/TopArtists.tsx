@@ -9,8 +9,9 @@ import { NavigationContext } from "react-navigation"
 import { Routes } from "../../navigation/_routes"
 import { TouchableOpacity } from "react-native-gesture-handler"
 import Animated from "react-native-reanimated"
-import UIHelper from "../../../common/helpers/UIHelper"
 import { RootStoreType } from "../../../redux/rootReducer"
+import UIHelper from "../../../common/helpers/UIHelper"
+
 
 const TopArtists = ({
   userTopArtistsHeader,

@@ -3,10 +3,11 @@ import { ScrollView, Text, View } from "react-native"
 import { NavigationContext } from "react-navigation"
 import { connect, ConnectedProps } from "react-redux"
 import { getAlbumById } from "../../../redux/slices/albumSlice"
-import { Routes } from "../../navigation/_routes"
 import ArtistCover from "../../../common/components/ArtistCover"
 import { albumDimensions, styles } from "../styles"
 import { RootStoreType } from "../../../redux/rootReducer"
+import { Routes } from "../../navigation/_routes"
+
 
 const RecentlyPlayed = ({ getAlbumById, recentlyPlayedAlbums }: ReduxProps) => {
   const navigation = useContext(NavigationContext)

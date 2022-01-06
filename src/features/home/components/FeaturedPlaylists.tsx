@@ -6,8 +6,9 @@ import { Routes } from "../../navigation/_routes"
 import AlbumItem from "./AlbumItem"
 import { styles } from "../styles"
 import { getPlaylistById } from "../../../redux/slices/playlistSlice"
-import { AlbumType } from "../../../services/network/models/spotify/SpotifyCommon"
 import { RootStoreType } from "../../../redux/rootReducer"
+import { AlbumType } from "../../../services/network/models/spotify/SpotifyCommon"
+
 
 const FeaturedPlaylists = ({
   featuredPlaylists,

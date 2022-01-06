@@ -1,6 +1,6 @@
-import { colors } from "../../common/theme"
-import { StyleSheet } from "react-native"
 
+import { StyleSheet } from "react-native"
+import { colors } from "../../common/theme"
 const MARGIN_BOTTOM = 38
 
 const styles = StyleSheet.create({

@@ -7,9 +7,8 @@ import FeaturedPlaylists from "./components/FeaturedPlaylists"
 import RecentlyPlayed from "./components/RecentlyPlayed"
 import { styles } from "./styles"
 import TopArtists from "./components/TopArtists"
-import { SafeAreaView, NavigationEvents } from "react-navigation"
 import { PLAYER_HEIGHT } from "../player/StickyPlayer"
-
+import { SafeAreaView, NavigationEvents } from "react-navigation"
 const Home = () => {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: colors.tabBar }}>
